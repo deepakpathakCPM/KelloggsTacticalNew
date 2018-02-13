@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dailyEntry"
+            android:icon="@mipmap/entry_grey"
+            android:title="Daily Entry" />
+        <item
+            android:id="@+id/downloadData"
+            android:icon="@mipmap/download_grey"
+            android:title="Download Data" />
+        <item
+            android:id="@+id/attendance"
+            android:icon="@mipmap/upload_grey"
+            android:title="Attendance"
+            android:visible="false" />
+        <item
+            android:id="@+id/uploadData"
+            android:icon="@mipmap/upload_grey"
+            android:title="Upload Data"
+            android:visible="false" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@mipmap/exit_grey"
+            android:title="Exit" />
+    </group>
+
+    <item android:title="others">
+        <menu>
+            <item
+                android:id="@+id/nav_export_database"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Export Database" />
+        </menu>
+    </item>
+
+</menu>
